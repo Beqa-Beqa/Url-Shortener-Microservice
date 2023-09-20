@@ -1,8 +1,8 @@
 # Url shortener
 
-## Fcc challenge
+## Freecodecamp challenge
 
-[Visit FCC](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/url-shortener-microservice)
+[Challenge Link](https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/url-shortener-microservice)
 <hr/>
 
 ## Initialize app on local machine
@@ -21,13 +21,16 @@ npm start #Runs nodemon on index.js that will let you inspect your app on localh
 
 ```
 
-{ original_url : 'https://freeCodeCamp.org', short_url : 1}
+{ 
+  original_url : 'https://freeCodeCamp.org',
+  short_url : 1
+}
 
 ```
 
 <h4>When you visit /api/shorturl/<short_url>, you will be redirected to the original URL.</h4>
 
-<h4>f you pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain: </h4>
+<h4>if you pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain: </h4>
 
 ```
 
