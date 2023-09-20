@@ -28,7 +28,7 @@ npm start #Runs nodemon on index.js that will let you inspect your app on localh
 
 ```
 
-<h4>When you visit /api/shorturl/<short_url>, you will be redirected to the original URL.</h4>
+<h4>When you visit /api/shorturl/[short_url], you will be redirected to the original URL.</h4>
 
 <h4>if you pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain: </h4>
 
