@@ -17,7 +17,7 @@ npm start #Runs nodemon on index.js that will let you inspect your app on localh
 
 ```
 
-<h4>You can POST a URL to /api/shorturl and get a JSON response with original_url and short_url properties. Here's an example: </h4>
+<h4>You can POST a URL to [localhost]/api/shorturl from your [localhost] and get a JSON response with original_url and short_url properties. Here's an example: </h4>
 
 ```
 
@@ -28,7 +28,7 @@ npm start #Runs nodemon on index.js that will let you inspect your app on localh
 
 ```
 
-<h4>When you visit /api/shorturl/[short_url], you will be redirected to the original URL.</h4>
+<h4>When you visit [localhost]/api/shorturl/[short_url], you will be redirected to the original URL.</h4>
 
 <h4>if you pass an invalid URL that doesn't follow the valid http://www.example.com format, the JSON response will contain: </h4>
 
