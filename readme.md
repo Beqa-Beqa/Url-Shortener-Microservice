@@ -37,3 +37,6 @@ npm start #Runs nodemon on index.js that will let you inspect your app on localh
 { error: 'invalid url' }
 
 ```
+
+<br/>
+<h4>Keep in mind to create .env file and add your mongodb [MONGO_URI] variable in it with respective value</h4>
